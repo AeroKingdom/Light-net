@@ -81,7 +81,7 @@ header {
 /*this right here is the wallpaper for the site, replace with a file or Base64 (preferably)*/
 
   body {
-    background: url(https://schoolsafety.ml/logo.png);    
+    background: url(https://lolrip.herokuapp.com/logo.png);    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
