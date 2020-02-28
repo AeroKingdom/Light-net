@@ -24,15 +24,47 @@
             <a class="btn btn-primary btn-rounded my-0 waves-effect waves-light" href="https://github.com/cubesniper24/Phoenix-Reborn/" target="_blank">Check us out on Github!</a>
           </div>
         </div>
-      </nav>
-    <form>
-			<input type="text" id="username" placeholder="Choose Username">
-			<input type="password" id="password" placeholer="Choose Password">
-			<button type="button" onclick="getInfo()">Click Me</button>
-		</form>
-
-		<script src="password.js"></script>
+	  </nav>
       <header>
+	      <form name="loginForm" method="post" action="login.php">
+<table width="20%" bgcolor="0099CC" align="center">
+
+<tr>
+<td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
+</tr>
+
+<tr>
+<td>Username:</td>
+<td><input type="text" size=25 name="userid"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="Password" size=25 name="pwd"></td>
+</tr>
+
+<tr>
+<td ><input type="Reset"></td>
+<td><input type="submit" onclick="return check(this.form)" value="Login"></td>
+</tr>
+
+</table>
+</form>
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "Roseindia" && form.pwd.value == "Roseindia")
+{
+	return true;
+}
+else
+{
+	alert("Error Password or Username")
+	return false;
+}
+}
+	      </script>
         <section class="animated fadeIn view hm-gradient intro" id="intro">
         <div class="full-bg-img d-flex align-items-center">
         <div class="container">
