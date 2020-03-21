@@ -31,10 +31,10 @@ body:before {
 /*end*/
 
 /*Navbar color*/
-.navbar:not(.top-nav-collapse) {background: rgb(80, 199, 199);}
+.navbar:not(.top-nav-collapse) {background: rgb(54, 99, 179);}
 
 .top-nav-collapse {
-  background-color: #50c7c7;}
+  background-color: #3663b3;}
 /*end*/
 
 /*colors for the glass theming*/
