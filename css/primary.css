@@ -31,7 +31,7 @@ body:before {
 /*end*/
 
 /*Navbar color*/
-.navbar:not(.top-nav-collapse) {background: rgb(214, 191, 19);}
+.navbar:not(.top-nav-collapse) {background: rgb(80, 199, 199);}
 
 .top-nav-collapse {
   background-color: #d6a913;}
