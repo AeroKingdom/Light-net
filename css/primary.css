@@ -36,16 +36,6 @@ body:before {
 .top-nav-collapse {
   background-color: #3663b3;}
 
-.top-nav-collapse {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
 /*end*/
 
 /*colors for the glass theming*/
