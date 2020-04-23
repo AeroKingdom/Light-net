@@ -31,12 +31,12 @@ body:before {
 /*end*/
 
 /*Navbar color*/
-.navbar:not(.side-nav-collapse) {background: rgb(54, 99, 179);}
+.navbar:not(.top-nav-collapse) {background: rgb(54, 99, 179);}
 
-.side-nav-collapse {
+.top-nav-collapse {
   background-color: #3663b3;}
 
-.side-nav-collapse {
+.top-nav-collapse {
   height: 100%;
   width: 160px;
   position: fixed;
