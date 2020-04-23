@@ -18,12 +18,18 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="./selection3.html">Games</a></li>
-              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="./contributors.html">Staff & Contributors</a></li></ul>
-		</div>
+         <button onclick="openNav()">open menu</button>
+	</div>
         </div>
 	  </nav>
       <header>
+	   <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="./selection.html">games</a>
+    <a href="./contributors.html">contact</a>
+  </div>
+</div>
         <section class="animated fadeIn view hm-gradient intro" id="intro">
         <div class="full-bg-img d-flex align-items-center">
         <div class="container">
@@ -48,6 +54,15 @@
           </div>
       </section>
     </header>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
 <script>
 document.onkeyup = function(e) {
   if (e.ctrlKey && e.which == 77){ window.open("https://www.squid.gq","_self");}
