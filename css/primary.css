@@ -128,10 +128,17 @@ header {
   }
 }
 /*end*/
+/*color for blue buttons*/
 .buttonblue {
  background-color:#0a75c2; 
 }
+/*end*/
 
+/*color for links*/
+.link{
+  color: #ffffff;
+}
+/*end*/
 /*this right here is the wallpaper for the site, replace with a file or Base64 (preferably)*/
 
   body {
