@@ -1,0 +1,26 @@
+		      <!doctype html>
+          <script language=javascript>document.write(unescape('%3Cform%20name%3D%22loginForm%22%20method%3D%22post%22%20action%3D%22index.html%22%3E%0A%3Ctable%20width%3D%2220%25%22%20bgcolor%3D%220099CC%22%20align%3D%22center%22%3E'))</script>
+
+
+<tr>
+<td colspan=2><center><font size=4><b>light-net login</b></font></center></td>
+</tr>
+
+<tr>
+<td>Username:</td>
+<td><input type="text" size=25 name="user"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="Password" size=25 name="pass"></td>
+</tr>
+
+<tr>
+<td ><input type="Reset"></td>
+<td><input type="submit" onclick="return check(this.form)" value="Login"></td>
+</tr>
+
+</table>
+</form>
+<script language=javascript>document.write(unescape('%3Cscript%20language%3D%22javascript%22%3E%0Afunction%20check%28form%29%0A%7B%0A%0Aif%28form.user.value%20%3D%3D%20%22public%22%20%26%26%20form.pass.value%20%3D%3D%20%22peasants%22%29%0A%7B%0A%09return%20true%3B%0A%7D%0Aelse%0A%7B%0A%09alert%28%22Error%20Password%20or%20Username%22%29%0A%09return%20false%3B%0A%7D%0A%7D%0A%09%20%20%20%20%20%20%3C/script%3E'))</script>

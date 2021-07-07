@@ -16,14 +16,28 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="./">Go Home</a></li>
-              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="./selection3.html">Games</a></li>
-              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="./selection2.html">Watch Movies/TV</a></li>
-              <li class="nav-item"><a class="nav-link waves-effect waves-light" href="./contributors.html">Staff & Contributors</a></li></ul>
-            <a class="btn btn-primary btn-rounded my-0 waves-effect waves-light" href="https://github.com/titaniumnetwork-dev" target="_blank">Check us out on Github!</a>
-          </div>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+         </div>
         </div>
       </nav>
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="./index.html">Home</a>
+    <a href="./selection3.html">games</a>
+    <a href="./contributors.html">Contact</a>
+    <a href="https://github.com/cubesniper24/light-net">GitHub</a>
+  </div>
+</div>
+        <script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
       <header>
       <!-- Intro Section-->
       <section class="animated fadeIn view hm-gradient intro" id="intro">
@@ -31,7 +45,7 @@
           <div class="container">
             <div class="row">
               <div class "wow white-text" style="visibility:visible">
-                    <h2 class="h1-responsive font-bold mt-sm-5">TitaniumNetwork Staff & Contributors</h2>
+                    <h2 class="h1-responsive font-bold mt-sm-5">Light Net Staff & Contributors</h2>
                     <h5 class="h6-responsive font-bold mt-sm-1" style="color: lightgray;">Click their names to view their Github page, if they have one!</h5>
                     <ul class="h3-responsive font-bold mt-sm-3"><h5>Staff:</h5>
                       <h6 class="h6-responsive font-bold mt-sm-3"><li><a href="https://github.com/cubesniper24"><span style="color: white;">cubesniper24 creator of light-net</span></a></li></h6>
